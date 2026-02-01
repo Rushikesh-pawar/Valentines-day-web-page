@@ -20,13 +20,14 @@ export default function Home() {
   return (
     <div className="main-div-sid">
       <div className="content-box">
-        <p>_____ will you be my valentine?</p>
+        <img src="/baby-elephant.jpg" alt="baby elephant" className="elephant-image" />
+        <p>Siddhi will you be my valentine?</p>
         
         {yesClicked && (
           <>
             <p className="yay-text">Yay!</p>
             <img 
-              src="https://media.giphy.com/media/gKsJUddjnpIw2T7i65/giphy.gif" 
+              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJrdWNqZ2pqczMycHVxa2c2N3ZjbWpnczdpaDJpNG5rZGIxZTY4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HSCZMUa1ao17h7l5mg/giphy.gif" 
               alt="celebration" 
               className="celebration-gif"
             />
